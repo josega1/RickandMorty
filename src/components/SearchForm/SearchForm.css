@@ -1,0 +1,35 @@
+.search_form {
+    background-color: red;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form button img {
+    width: 80px;
+    margin-left: 60px;
+}
+
+form button:hover {
+    transform: scale(0.9);
+}
+
+form input {
+    border-radius: 30px;
+    text-align: center;
+    background-color: greenyellow;
+    width: 150px;
+    height: 25px;
+}

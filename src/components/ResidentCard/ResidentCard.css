@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,300&family=Inter:wght@100;200;300;500;600;800&family=Righteous&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.name {
+    background-color: rgba(42, 65, 58, 0.644);
+    padding: 5px;
+    text-align: center;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(58, 151, 63, 0.377);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container img {
+    border-radius: 100%;
+}

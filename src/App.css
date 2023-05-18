@@ -1,0 +1,13 @@
+html {
+    background: url(../src/components/images/background2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.residents {
+    font-size: 50px;
+}

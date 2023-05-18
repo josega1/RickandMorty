@@ -1,0 +1,18 @@
+.background {
+  background-image: url('../images/background2.jpg');
+}
+
+.portal {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.portal img {
+  height: 300px;
+}
+
+@font-face {
+  font-family: 'Get Schwifty';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+}

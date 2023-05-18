@@ -1,0 +1,39 @@
+select {
+    width: 70px;
+    text-align: center;
+}
+
+.quantity_per_page {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;   
+}
+
+ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.change_page button{
+    background-color: rgba(172, 255, 47, 0.527);
+    border: none;
+    border-radius: 100%;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.change_page {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
